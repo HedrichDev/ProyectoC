@@ -23,6 +23,9 @@ El Presente Proyecto fue realizado por alumnos de Informatica de la Universidad 
 > 👥Adrián Gabriel Martinez Costales C.I:32.923.667
 >  
 
+## Consejos para la Ejecucion del Codigo C++
+
+
 
 
 <br>
