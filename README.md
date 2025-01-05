@@ -97,7 +97,7 @@ EJEMPLO:
 `XXOOXXOO`
 `XXOOOOXX`
 
-![]()
+![](https://github.com/HedrichDev/ProyectoC/blob/main/ejemplo%20de%20introduccion%20de%20datos.png?raw=true)
 >Ejemplo de Introduccion de Datos en 
 <br>
 <br>
