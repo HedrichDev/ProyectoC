@@ -73,17 +73,17 @@ El objetivo del proyecto es permitir al usuario ingresar un mapa de 8x8 que repr
 - La salida incluye las coordenadas de los villanos, comenzando desde 1 (para que sea más intuitivo para el usuario) y el conteo total de villanos.
 
 
-## Reglas y Recomendaciones para Ejecutar el Código
+## Recomendaciones para Ejecutar el Código ❗ ❗
 
-#### - Descargar el Archivo en Formato Zip
+#### ❗Descargar el Archivo en Formato Zip
  Abrirlo en el IDE de Preferencia... recomendamos [Online GBD](https://www.onlinegdb.com "Online GBD"), debido a que Visual Studio Code puede presentar fallos a la hora de compilar o errores comunes de librerias, aca te proporcionamos el link del proyecto en [Online Gdb AQUI](https://onlinegdb.com/iMQNxolkv "Online Gdb AQUI")  y podras correr el programa de forma Online sin necesidad de descargar el codigo.
 
 
-####Entorno de Ejecución:
+#### ❗Entorno de Ejecución:
 
 Asegúrate de que el entorno de programación soporte C++ y tenga configurado un compilador adecuado.
 
-####Validación de Entrada:
+#### ❗Validación de Entrada:
 
 - Debes Introducir un mapa que cumpla con las especificaciones: 8 filas y 8 columnas utilizando solo 'X' y 'O'. Cualquier entrada inválida será rechazada.
 - Las Entradas de las 'X' y 'O'  deben ser **UNICAMENTE** en **MAYUSCULAS**
@@ -108,21 +108,5 @@ EJEMPLO:
 
 ![](https://cdn.beacons.ai/user_content/9gId3uiraCfpOWOK1E0evDYEjyw2/referenced_images/e2c53611-8419-44a6-aa39-5ed4123b8109__link-in-bio__image-block__home__d1c18573-c5c1-436c-a579-c4b5d7984caf__686e7412-cbfe-4602-b9bd-28e0b27b4fa3.png?t=1679753972703)
 >Marketing_Hedrich
-
-
-:sparkle: 
-:eight_pointed_black_star: 
-:heart_decoration: 
-:ophiuchus: 
-:negative_squared_cross_mark: 
-:clock1230: :clock2: :clock230: 
-:tm: :x: 
-:heavy_exclamation_mark: 
-:black_small_square: 
-:white_small_square: 
-:black_medium_small_square: 
-:small_red_triangle_down: 
-:shipit:
-
 
 
