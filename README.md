@@ -8,7 +8,7 @@ El Presente Proyecto fue realizado por alumnos de Informatica de la Universidad 
         title="Logo UDO"
         alt="Logo UDO"
     />
-](https://yt3.ggpht.com/FldMBUIXcSya51OVfVXVMF_uxJX_PG2NpkR_lJ4WEfaSQMPnz4cEqgEqly84XGbucRsbP5ZoOA=s88-c-k-c0x00ffffff-no-rj) de la seccion 0501, Nueva Esparta, Venezuela
+](https://github.com/HedrichDev/ProyectoC/blob/main/LOGO%20UDONE.png?raw=true) de la seccion 0501, Nueva Esparta, Venezuela
 
 ## Integrantes del Proyecto 
 > 👥 Christopher Hedrich C.I 31.821.175
