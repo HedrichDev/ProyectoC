@@ -3,7 +3,7 @@
 
 El Presente Proyecto fue realizado por alumnos de Informatica de la Universidad de Oriente de la seccion 0501, Nueva Esparta, Venezuela
 
-![](https://boludooficial.wordpress.com/wp-content/uploads/2021/10/bandera_udo.jpg)
+![](https://boludooficial.wordpress.com/wp-content/uploads/2021/10/bandera_udo.jpg|width=100)
 
 
 ## Integrantes del Proyecto 
