@@ -29,11 +29,11 @@ El objetivo del proyecto es permitir al usuario ingresar un mapa de 8x8 que repr
 **2. Villanos:** El programa está diseñado para detectar a varios villanos específicos:
 
 - **Harley Quinn:** Representada por 'XXX' en una fila.
-- **Acertijo: **Representado por 'O' y tiene amigos en posiciones específicas.
-- **Catwoman: **Tiene amigos en posiciones específicas alrededor de ella.
+- **Acertijo:** Representado por 'O' y tiene amigos en posiciones específicas.
+- **Catwoman:** Tiene amigos en posiciones específicas alrededor de ella.
 - **El Joker:** Detectado por la presencia de 'X' en posiciones específicas.
-- **Poison Ivy: **Tiene amigos en posiciones específicas.
-- **El Pingüino: **También tiene amigos en posiciones específicas.
+- **Poison Ivy:** Tiene amigos en posiciones específicas.
+- **El Pingüino:** También tiene amigos en posiciones específicas.
 
 **3.  Contador de Amigos: **El programa cuenta cuántos amigos tiene cada villano basado en las reglas definidas por el Profesor Alejandro de la Materia
 
