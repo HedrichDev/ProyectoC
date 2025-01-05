@@ -1,4 +1,4 @@
-# !  Hola 👋, Este es el BatiProyecto en C++ del grupo de HEDRICH 
+# !  Hola 👋, Este es el BatiProyecto en C++ del grupo de HΞDЯICH 
 ![](https://github.com/HedrichDev/ProyectoC/blob/main/image.png?raw=true)
 
 El Presente Proyecto fue realizado por alumnos de Informatica de la Universidad de Oriente UDO [<img
