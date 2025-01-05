@@ -88,6 +88,17 @@ Asegúrate de que el entorno de programación soporte C++ y tenga configurado un
 - Debes Introducir un mapa que cumpla con las especificaciones: 8 filas y 8 columnas utilizando solo 'X' y 'O'. Cualquier entrada inválida será rechazada.
 - Las Entradas de las 'X' y 'O'  deben ser **UNICAMENTE** en **MAYUSCULAS**
 - Las Entradas ('X' y 'O' )no deben estar Separadas es decir: XXXOXXXO
+- 
+EJEMPLO:
+`XXXXXXXX`
+`OOOOOOOO`
+`XOXOXOXO`
+`OXOXOXOX`
+`XXOOXXOO`
+`XXOOOOXX`
+
+![]()
+>Ejemplo de Introduccion de Datos en 
 <br>
 <br>
 <br>
