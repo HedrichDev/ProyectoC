@@ -3,7 +3,7 @@
 
 El Presente Proyecto fue realizado por alumnos de Informatica de la Universidad de Oriente UDO [<img
         src="https://raw.githubusercontent.com/HedrichDev/ProyectoC/refs/heads/main/LOGO%20UDONE.png" 
-        width=4%
+        width=3%
         title="Logo UDO"
         alt="Logo UDO"
     />
