@@ -27,12 +27,13 @@ El objetivo del proyecto es permitir al usuario ingresar un mapa de 8x8 que repr
 **1. Mapa:** Un arreglo bidimensional (en forma de vector de strings) que representa la ciudad. Cada fila del mapa tiene exactamente 8 caracteres, que pueden ser 'X' (villano) o 'O' (amigo).
 
 **2. Villanos:** El programa está diseñado para detectar a varios villanos específicos:
-**- Harley Quinn:** Representada por 'XXX' en una fila.
-**- Acertijo: **Representado por 'O' y tiene amigos en posiciones específicas.
-**- Catwoman: **Tiene amigos en posiciones específicas alrededor de ella.
-**- El Joker:** Detectado por la presencia de 'X' en posiciones específicas.
-**- Poison Ivy: **Tiene amigos en posiciones específicas.
-**- El Pingüino: **También tiene amigos en posiciones específicas.
+
+- **Harley Quinn:** Representada por 'XXX' en una fila.
+- **Acertijo: **Representado por 'O' y tiene amigos en posiciones específicas.
+- **Catwoman: **Tiene amigos en posiciones específicas alrededor de ella.
+- **El Joker:** Detectado por la presencia de 'X' en posiciones específicas.
+- **Poison Ivy: **Tiene amigos en posiciones específicas.
+- **El Pingüino: **También tiene amigos en posiciones específicas.
 
 **3.  Contador de Amigos: **El programa cuenta cuántos amigos tiene cada villano basado en las reglas definidas por el Profesor Alejandro de la Materia
 
@@ -47,12 +48,12 @@ El objetivo del proyecto es permitir al usuario ingresar un mapa de 8x8 que repr
 - Una vez que se ha ingresado el mapa, el programa llama a la función detectarVillanosYAmigos, que realiza el análisis del mapa.
 - Se utilizan bucles anidados para recorrer cada posición del mapa y aplicar condiciones específicas para detectar a los villanos y contar sus amigos:
 
-**Harley Quinn: **Se busca la secuencia 'XXX' en cada fila.
-**Acertijo:** Se verifica si hay un 'O' en una posición específica y si hay 'X' en posiciones en forma de 'L'.
-**Catwoman: **Se verifica si hay 'X' en las posiciones diagonales alrededor de un 'O'.
-**El Joker: **Se verifica si hay un 'X' en una posición específica en relación con otro 'X'.
-**Poison Ivy:** Se verifica si hay 'X' a la izquierda y derecha de un 'X'.
-**El Pingüino: **Se verifica si hay 'O' en posiciones específicas.
+- **Harley Quinn: **Se busca la secuencia 'XXX' en cada fila.
+- **Acertijo:** Se verifica si hay un 'O' en una posición específica y si hay 'X' en posiciones en forma de 'L'.
+- **Catwoman: **Se verifica si hay 'X' en las posiciones diagonales alrededor de un 'O'.
+- **El Joker: **Se verifica si hay un 'X' en una posición específica en relación con otro 'X'.
+- **Poison Ivy:** Se verifica si hay 'X' a la izquierda y derecha de un 'X'.
+- **El Pingüino: **Se verifica si hay 'O' en posiciones específicas.
 
 
 ### Almacenamiento de Resultados:
@@ -89,9 +90,5 @@ Asegúrate de que el entorno de programación soporte C++ y tenga configurado un
 <br>
 ![](https://cdn.beacons.ai/user_content/9gId3uiraCfpOWOK1E0evDYEjyw2/referenced_images/e2c53611-8419-44a6-aa39-5ed4123b8109__link-in-bio__image-block__home__d1c18573-c5c1-436c-a579-c4b5d7984caf__686e7412-cbfe-4602-b9bd-28e0b27b4fa3.png?t=1679753972703)
 >Marketing_Hedrich
-
-
-
-
 
 
