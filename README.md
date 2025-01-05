@@ -1,4 +1,4 @@
-# !  Hola, Este es el Proyecto de C++ de Batman👋
+# !  Hola 👋, Este es el Proyecto de C++ de Batman
 El Proyecto fue realizado por alumnos de Informatica de la Universidad de Oriente (UDO) de la seccion 0501
 
 
