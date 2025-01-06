@@ -37,6 +37,19 @@ El Presente Proyecto fue realizado por alumnos de Informatica de la Universidad 
 ***
 El objetivo del proyecto es permitir al usuario ingresar un mapa de 8x8 que representa una ciudad, donde los caracteres 'X' y 'O' se utilizan para representar a los villanos y amigos, respectivamente. El programa analiza este mapa para detectar la posición de varios villanos y contar cuántos amigos tiene cada uno.
 
+### Componentes del Proyecto
+***
+**1. Mapa:** Un arreglo bidimensional (en forma de vector de strings) que representa la ciudad. Cada fila del mapa tiene exactamente 8 caracteres, que pueden ser 'X' (villano) o 'O' (amigo).
+
+**2. Villanos:** El programa está diseñado para detectar a varios villanos específicos:
+
+- **Harley Quinn:** Representada por 'XXX' en una fila.
+- **Acertijo:** Representado por 'O' y tiene amigos en posiciones específicas.
+- **Catwoman:** Tiene amigos en posiciones específicas alrededor de ella.
+- **El Joker:** Detectado por la presencia de 'X' en posiciones específicas.
+- **Poison Ivy:** Tiene amigos en posiciones específicas.
+- **El Pingüino:** También tiene amigos en posiciones específicas.
+
 [<img
         src="https://i.pinimg.com/originals/fa/4c/8b/fa4c8bd3ad851273d3e2eb77e072196a.png" 
         width=15%
@@ -80,19 +93,6 @@ El objetivo del proyecto es permitir al usuario ingresar un mapa de 8x8 que repr
     />
 ](https://i.pinimg.com/originals/da/26/b6/da26b68c83535d2f2b32ffe56ea34e64.png)
 
-
-### Componentes del Proyecto
-***
-**1. Mapa:** Un arreglo bidimensional (en forma de vector de strings) que representa la ciudad. Cada fila del mapa tiene exactamente 8 caracteres, que pueden ser 'X' (villano) o 'O' (amigo).
-
-**2. Villanos:** El programa está diseñado para detectar a varios villanos específicos:
-
-- **Harley Quinn:** Representada por 'XXX' en una fila.
-- **Acertijo:** Representado por 'O' y tiene amigos en posiciones específicas.
-- **Catwoman:** Tiene amigos en posiciones específicas alrededor de ella.
-- **El Joker:** Detectado por la presencia de 'X' en posiciones específicas.
-- **Poison Ivy:** Tiene amigos en posiciones específicas.
-- **El Pingüino:** También tiene amigos en posiciones específicas.
 
 **3.  Contador de Amigos: **El programa cuenta cuántos amigos tiene cada villano basado en las reglas definidas por el Profesor Alejandro de la Materia
 
