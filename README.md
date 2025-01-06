@@ -97,12 +97,12 @@ El objetivo del proyecto es permitir al usuario ingresar un mapa de 8x8 que repr
 - Una vez que se ha ingresado el mapa, el programa llama a la función detectarVillanosYAmigos, que realiza el análisis del mapa.
 - Se utilizan bucles anidados para recorrer cada posición del mapa y aplicar condiciones específicas para detectar a los villanos y contar sus amigos:
 
-- **Harley Quinn: **Se busca la secuencia 'XXX' en cada fila.
+- **Harley Quinn:** Se busca la secuencia 'XXX' en cada fila.
 - **Acertijo:** Se verifica si hay un 'O' en una posición específica y si hay 'X' en posiciones en forma de 'L'.
-- **Catwoman: **Se verifica si hay 'X' en las posiciones diagonales alrededor de un 'O'.
-- **El Joker: **Se verifica si hay un 'X' en una posición específica en relación con otro 'X'.
+- **Catwoman:** Se verifica si hay 'X' en las posiciones diagonales alrededor de un 'O'.
+- **El Joker:** Se verifica si hay un 'X' en una posición específica en relación con otro 'X'.
 - **Poison Ivy:** Se verifica si hay 'X' a la izquierda y derecha de un 'X'.
-- **El Pingüino: **Se verifica si hay 'O' en posiciones específicas.
+- **El Pingüino:** Se verifica si hay 'O' en posiciones específicas.
 
 
 ### Almacenamiento de Resultados:
