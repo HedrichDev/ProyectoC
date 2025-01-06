@@ -121,8 +121,8 @@ El objetivo del proyecto es permitir al usuario ingresar un mapa de 8x8 que repr
 
 #### ❗Descargar el Archivo en Formato Zip
  Abrirlo en el IDE de Preferencia... recomendamos [Online GBD](https://www.onlinegdb.com "Online GBD"), debido a que Visual Studio Code puede presentar fallos a la hora de compilar o errores comunes de librerias, aca te proporcionamos el link del proyecto en [Online Gdb AQUI](https://onlinegdb.com/iMQNxolkv "Online Gdb AQUI")  y podras correr el programa de forma Online sin necesidad de descargar el codigo.
-
-
+ 
+- 
 #### ❗Entorno de Ejecución:
 
 Asegúrate de que el entorno de programación soporte C++ y tenga configurado un compilador adecuado.
@@ -133,7 +133,7 @@ Asegúrate de que el entorno de programación soporte C++ y tenga configurado un
 - Las Entradas de las 'X' y 'O'  deben ser **UNICAMENTE** en **MAYUSCULAS**
 - Las Entradas ('X' y 'O' )no deben estar Separadas es decir: XXXOXXXO
 - 
-EJEMPLO:
+EJEMPLO:``
 `XXXXXXXX`
 `OOOOOOOO`
 `XOXOXOXO`
@@ -145,9 +145,31 @@ EJEMPLO:
 >Ejemplo de Introduccion de Datos en OnlineGBD
 <br>
 <br>
-<br>
-<br>
-<br>
+
+## Para evaluar el Pseudocodigo ❗ ❗
+***
+- Recomendamos Usar  [Visual Studio Code]( https://code.visualstudio.com/Download "Descargar Visual Studio Code") [<img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" 
+        width=3%
+        title="Visual Studio Code"
+        alt="Visual Studio Code"
+    />
+](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png)  
+
+- Debe abrir el archivo .Algo Con la SIguiente Extension Pseudocodigo ES  [( DESCARGAR AQUI)]( https://marketplace.visualstudio.com/items?itemName=Kkai.pseudocodigo-es "Descargar Extension Pseudocodigo ES")
+[<img
+        src="https://kkai.gallerycdn.vsassets.io/extensions/kkai/pseudocodigo-es/0.3.0/1720443162865/Microsoft.VisualStudio.Services.Icons.Default" 
+        width=10%
+        title="Pseudocódigo ES"
+        alt="Pseudocódigo ES"
+    />
+](https://kkai.gallerycdn.vsassets.io/extensions/kkai/pseudocodigo-es/0.3.0/1720443162865/Microsoft.VisualStudio.Services.Icons.Default)
+
+- Recomendamos Usar Dicha  Extencion Debido a que permite leer el codigo de manera mas sencilla gracias a que coloca en diferentes colores variables, constantes, palabras reservadas etc
+
+- 
+
+
 
 
 
