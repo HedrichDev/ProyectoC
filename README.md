@@ -153,6 +153,9 @@ EJEMPLO:``
 
 ![](https://github.com/HedrichDev/ProyectoC/blob/main/ejemplo%20de%20introduccion%20de%20datos.png?raw=true)
 >Ejemplo de Introduccion de Datos en OnlineGBD
+
+![](https://github.com/HedrichDev/ProyectoC/blob/main/Proyecto/C++/Ejemplo%20de%20Codigo%20Corrido%20en%20Online%20GDB.png?raw=true)
+>Ejemplo de Codigo corrido en Online GDB 
 <br>
 <br>
 
