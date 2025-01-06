@@ -64,7 +64,7 @@ El objetivo del proyecto es permitir al usuario ingresar un mapa de 8x8 que repr
 ](https://i.pinimg.com/originals/07/47/c8/0747c85b290b2041e38cbb879ea1ad0c.png)
 [<img
         src="https://i.pinimg.com/originals/da/26/b6/da26b68c83535d2f2b32ffe56ea34e64.png" 
-        width=12%
+        width=20%
         title="Pinguino "
         alt="Pinguino"
     />
