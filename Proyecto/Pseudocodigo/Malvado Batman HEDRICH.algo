@@ -1,113 +1,86 @@
-Algoritmo de DetectarVillanosYAmigos
+Algoritmo de MalvadoBatman
 
 Declaración
-    Constantes
-SIZE<-8
 
-    Variables
-mapa: Arreglo de Cadena[SIZE] de CARACTER
-villanos: Arreglo de Par[2] de ENTERO
-amigosContador: Mapa de Cadena a ENTERO
-posicionesVillanos: Mapa de Cadena a Arreglo de Par[2] de ENTERO
-villanosCount: ENTERO
-i, j: ENTERO
+    VARIABLES
+ Mapa: matriz de Caracter[8,8]
+ amigosContador: arreglo de Entero[6] // { Acertijo, Catwoman, Poison Ivy, El Joker, Harley Quinn, El Pingüino }
+    Definir posicionVillanos Como Entero[8][2]
+    nombresVillanos arreglo de cadena[5] = {"Acertijo", "Catwoman", "Poison Ivy", "El Joker", "Harley Quinn", "El Pingüino"}
+i,j,k:entero
+villanosCount: Entero 
+Inicio
+    villanosCount = 0
 
-INICIO
-    // Inicializar contadores
-    villanosCount <- 0
-    amigosContador["Acertijo"] <- 0
-    amigosContador["Catwoman"] <- 0
-    amigosContador["Poison Ivy"] <- 0
-    amigosContador["El Joker"] <- 0
-    amigosContador["Harley Quinn"] <- 0
-    amigosContador["El Pingüino"] <- 0
-
-    // Inicializar posicionesVillanos
-    posicionesVillanos["Harley Quinn"] <- Arreglo de Par[2] de ENTERO
-    posicionesVillanos["El Joker"] <- Arreglo de Par[2] de ENTERO
-    posicionesVillanos["El Pingüino"] <- Arreglo de Par[2] de ENTERO
-
-    // Leer el mapa
-    escribir "Introduce el mapa de la Ciudad Lego de Batman (8 filas, 8 columnas con 'X' y 'O'):"
-    para i desde 0 hasta SIZE - 1 hacer
-        escribir "Fila ", i + 1, ": "
-        leer mapa[i]
-
-        // Validar que la entrada tenga la longitud correcta y contenga solo 'X' y 'O'
-        mientras mapa[i].longitud != SIZE o mapa[i].encontrarPrimeroNoDe("XO") != -1 hacer
-            escribir "Entrada inválida. Asegúrate de que la fila tenga exactamente ", SIZE, " caracteres ('X' y 'O' solamente): "
-            leer mapa[i]
-        fin mientras
-    fin para
+    // Solicitar el mapa al usuario
+    Escribir "Introduce el mapa de la Ciudad Lego de Batman (8 filas, 8 columnas con 'X' y 'O'):"
+    Para i Desde 0 Hasta 7 Hacer
+        Escribir "Fila ", i + 1, ": "
+        Leer mapa[i]
+       
+        // Validar entrada
+        Mientras longitud(mapa[i]) <> 8 o mapa[i] No Contiene "X" o mapa[i] No Contiene "O" Hacer
+            Escribir "Entrada inválida. Asegúrate de que la fila tenga exactamente 8 caracteres ('X' y 'O' solamente): "
+            Leer mapa[i]
+        Fin Mientras
+    Fin Para
 
     // Verificación de filas para 'XXX' (Harley Quinn)
-    para i desde 0 hasta SIZE - 1 hacer
-        para j desde 0 hasta SIZE - 3 hacer
-            si mapa[i].subcadena(j, 3) == "XXX" entonces
-                villanos.agregar((i, j + 2)) // Posición del villano
-                posicionesVillanos["Harley Quinn"].agregar((i, j + 2))
-                amigosContador["Harley Quinn"] <- amigosContador["Harley Quinn"] + 1 // Contando amigos de Harley
-                villanosCount <- villanosCount + 1
-            fin si
-        fin para
-    fin para
+    Para i Desde 0 Hasta 7 Hacer
+        Para j Desde 0 Hasta 5 Hacer
+            Si (mapa[i], j, 3) = "XXX" Entonces
+                posicionVillanos[villanosCount][0] = i
+                posicionVillanos[villanosCount][1] = j + 2
+                amigosContador[5] = amigosContador[5] + 1
+                villanosCount = villanosCount + 1
+            Fin Si
+        Fin Para
+    Fin Para
 
-    // Verificación para el Acertijo y Catwoman
-    para i desde 1 hasta SIZE - 2 hacer
-        para j desde 1 hasta SIZE - 2 hacer
-        
+    // Verificación para Acertijo y Catwoman
+    Para i Desde 1 Hasta 6 Hacer
+        Para j Desde 1 Hasta 6 Hacer
             // Verifica el movimiento en 'L' para el Acertijo
-            si mapa[i][j] == 'O' entonces
-                si (i - 2 >= 0 y j - 1 >= 0 y mapa[i - 2][j - 1] == 'X') o
-                   (i - 2 >= 0 y j + 1 < SIZE y mapa[i - 2][j + 1] == 'X') o
-                   (i + 2 < SIZE y j - 1 >= 0 y mapa[i + 2][j - 1] == 'X') o
-                   (i + 2 < SIZE y j + 1 < SIZE y mapa[i + 2][j + 1] == 'X') entonces
-                    amigosContador["Acertijo"] <- amigosContador["Acertijo"] + 1
-                fin si
+            Si mapa[i][j] = 'O' Entonces
+                Si (i - 2 >= 0 y j - 1 >= 0 y mapa[i - 2][j - 1] = 'X') o
+(i - 2 >= 0 y j + 1 < 8 y mapa[i - 2][j + 1] = 'X') o
+(i + 2 < 8 y j - 1 >= 0 y mapa[i + 2][j - 1] = 'X') o
+(i + 2 < 8 y j + 1 < 8 y mapa[i + 2][j + 1] = 'X') Entonces
+                    amigosContador[1] = amigosContador[1] + 1
+                Fin Si
 
                 // Verificación para Catwoman
-                si mapa[i - 1][j - 1] == 'X' y mapa[i - 1][j + 1] == 'X' y
-                   mapa[i + 1][j - 1] == 'X' y mapa[i + 1][j + 1] == 'X' entonces
-                    amigosContador["Catwoman"] <- amigosContador["Catwoman"] + 1
-                fin si
-            fin si
-
+                Si mapa[i - 1][j - 1] = 'X' y mapa[i - 1][j + 1] = 'X' y
+mapa[i + 1][j - 1] = 'X' y mapa[i + 1][j + 1] = 'X' Entonces
+                    amigosContador[2] = amigosContador[2] + 1
+                Fin Si
+            Fin Si
+           
             // Verificación del Joker
-            si mapa[i][j] == 'X' y i - 1 >= 0 y j + 1 < SIZE y mapa[i - 1][j + 1] == 'X' entonces
-                posicionesVillanos["El Joker"].agregar ((i - 1, j + 1))
-                amigosContador["El Joker"] <- amigosContador["El Joker"] + 1
-            fin si
+            Si mapa[i][j] = 'X' y i - 1 >= 0 y j + 1 < 8 y mapa[i - 1][j + 1] = 'X' Entonces
+                // Aquí no se guardan posiciones en el pseudocódigo, solo se cuenta
+                amigosContador[4] = amigosContador[4] + 1
+            Fin Si
 
             // Verificación de Poison Ivy
-            si mapa[i][j] == 'X' entonces
-                si j > 0 y j < SIZE - 1 y mapa[i][j - 1] == 'X' y mapa[i][j + 1] == 'X' entonces
-                    amigosContador["Poison Ivy"] <- amigosContador["Poison Ivy"] + 1
-                fin si
-            fin si
+            Si mapa[i][j] = 'X' Entonces
+                Si j > 0 y j < 7 y mapa[i][j - 1] = 'X' y mapa[i][j + 1] = 'X' Entonces
+                    amigosContador[3] = amigosContador[3] + 1
+                Fin Si
+            Fin Si
 
             // Verificación del Pingüino
-            si mapa[i][j] == 'O' y i + 1 < SIZE y j + 1 < SIZE y mapa[i + 1][j + 1] == 'O' entonces
-                posicionesVillanos["El Pingüino"].agregar((i + 1, j + 1))
-                amigosContador["El Pingüino"] <- amigosContador["El Pingüino"] + 1
-            fin si
-        fin para
-    fin para
+            Si mapa[i][j] = 'O' y i + 1 < 8 y j + 1 < 8 y mapa[i + 1][j + 1] = 'O' Entonces
+                // Aquí también se cuenta pero no se almacenan posiciones
+                amigosContador[6] = amigosContador[6] + 1
+            Fin Si
+        Fin Para
+    Fin Para
 
-    // Escribir resultados
-    escribir "Posiciones y amigos en el mapa (coordenadas empezando desde 1):"
-    para cada entrada en posicionesVillanos hacer
-        escribir entrada.clave, " encontrados en las posiciones: "
-        para cada pos en entrada.valor hacer
-            escribir "(", pos[0] + 1, ", ", pos[1] + 1, ") " // Sumar 1 a cada coordenada
-        fin para
-        escribir ""
-    fin para
+    // colocar resultados
+    Escribir "Número total de villanos: ", villanosCount
+    Para k Desde 0 Hasta 5 Hacer
+        Escribir "Número de amigos de ", nombresVillanos[k], ": ", amigosContador[k]
+    Fin Para
 
-    escribir "Número total de villanos: ", villanosCount
-    escribir "Número de amigos del Acertijo: ", amigosContador["Acertijo"]
-    escribir "Número de amigos de Catwoman: ", amigosContador["Catwoman"]
-    escribir "Número de amigos de Poison Ivy: ", amigosContador["Poison Ivy"]
-    escribir "Número de amigos del Joker: ", amigosContador["El Joker"]
-    escribir "Número de amigos de Harley Quinn: ", amigosContador["Harley Quinn"]
-    escribir "Número de amigos del Pingüino: ", amigosContador["El Pingüino"]
-FIN Algoritmo
+Fin Algoritmo
