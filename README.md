@@ -106,7 +106,6 @@ EJEMPLO:
 <br>
 
 
-![](https://cdn.beacons.ai/user_content/9gId3uiraCfpOWOK1E0evDYEjyw2/referenced_images/e2c53611-8419-44a6-aa39-5ed4123b8109__link-in-bio__image-block__home__d1c18573-c5c1-436c-a579-c4b5d7984caf__686e7412-cbfe-4602-b9bd-28e0b27b4fa3.png?t=1679753972703)
->Marketing_Hedrich
+
 
 
