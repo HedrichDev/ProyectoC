@@ -146,7 +146,7 @@ EJEMPLO:``
 <br>
 <br>
 
-## Para evaluar el Pseudocodigo ❗ ❗
+## Para leer el Pseudocodigo ❗ ❗
 ***
 - Recomendamos Usar  [Visual Studio Code]( https://code.visualstudio.com/Download "Descargar Visual Studio Code") [<img
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" 
@@ -169,6 +169,7 @@ EJEMPLO:``
 
 - 
 
+![image](https://github.com/user-attachments/assets/a145ee69-0a40-45fb-99c6-a79e59902dcb)
 
 
 
