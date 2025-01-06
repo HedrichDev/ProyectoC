@@ -1,5 +1,5 @@
 # !  Hola 👋, Este es el BatiProyecto en C++ del grupo de HΞDЯICH 
-![](https://github.com/HedrichDev/ProyectoC/blob/main/image.png?raw=true)
+![]([https://github.com/HedrichDev/ProyectoC/blob/main/image.png?raw=true](https://github.com/HedrichDev/ProyectoC/blob/main/Integrantes%20del%20Grupo.png?raw=true))
 
 El Presente Proyecto fue realizado por alumnos de Informatica de la Universidad de Oriente UDO [<img
         src="https://raw.githubusercontent.com/HedrichDev/ProyectoC/refs/heads/main/LOGO%20UDONE.png" 
