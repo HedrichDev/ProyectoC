@@ -148,7 +148,7 @@ EJEMPLO:``
 
 ## Para leer el Pseudocodigo ❗ ❗
 ***
-- Recomendamos Usar  [Visual Studio Code]( https://code.visualstudio.com/Download "Descargar Visual Studio Code") [<img
+- Recomiendo Usar  [Visual Studio Code]( https://code.visualstudio.com/Download "Descargar Visual Studio Code") [<img
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" 
         width=3%
         title="Visual Studio Code"
@@ -165,7 +165,7 @@ EJEMPLO:``
     />
 ](https://kkai.gallerycdn.vsassets.io/extensions/kkai/pseudocodigo-es/0.3.0/1720443162865/Microsoft.VisualStudio.Services.Icons.Default)
 
-- Recomendamos Usar Dicha  Extencion Debido a que permite leer el codigo de manera mas sencilla gracias a que coloca en diferentes colores variables, constantes, palabras reservadas etc
+- Recomiendo Usar Dicha  Extencion Debido a que permite leer el codigo de manera mas sencilla gracias a que coloca en diferentes colores variables, constantes, palabras reservadas etc
 
 - 
 
