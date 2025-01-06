@@ -135,7 +135,7 @@ El objetivo del proyecto es permitir al usuario ingresar un mapa de 8x8 que repr
 - 
 #### ❗Entorno de Ejecución:
 
-Asegúrate de que el entorno de programación soporte C++ y tenga configurado un compilador adecuado.
+Si no usas ONLINE GDB, asegúrate de que el entorno de programación utilizado soporte C++ y tenga configurado un compilador adecuado.
 
 #### ❗Validación de Entrada:
 
