@@ -27,6 +27,50 @@ El Presente Proyecto fue realizado por alumnos de Informatica de la Universidad 
 ***
 El objetivo del proyecto es permitir al usuario ingresar un mapa de 8x8 que representa una ciudad, donde los caracteres 'X' y 'O' se utilizan para representar a los villanos y amigos, respectivamente. El programa analiza este mapa para detectar la posición de varios villanos y contar cuántos amigos tiene cada uno.
 
+[<img
+        src="https://i.pinimg.com/originals/fa/4c/8b/fa4c8bd3ad851273d3e2eb77e072196a.png" 
+        width=15%
+        title="Joker"
+        alt="Joker"
+    />
+](https://i.pinimg.com/originals/fa/4c/8b/fa4c8bd3ad851273d3e2eb77e072196a.png)
+[<img
+        src="https://i.pinimg.com/originals/36/e1/a9/36e1a97f30edd8e4d773d59c92641bba.png" 
+        width=12%
+        title="Harley"
+        alt="Harley"
+    />
+](https://i.pinimg.com/originals/fa/4c/8b/fa4c8bd3ad851273d3e2eb77e072196a.png)
+[<img
+        src="https://i.pinimg.com/originals/80/58/3a/80583a1b1163295319cccb972bd7fda7.png" 
+        width=7%
+        title="Poison "
+        alt="Poison"
+    />
+](https://i.pinimg.com/originals/80/58/3a/80583a1b1163295319cccb972bd7fda7.png)
+[<img
+        src="https://i.pinimg.com/originals/ec/38/2a/ec382abc5050544e0066315f0de46eef.png" 
+        width=12%
+        title="Acertijo "
+        alt="Acertijo"
+    />
+](https://i.pinimg.com/originals/ec/38/2a/ec382abc5050544e0066315f0de46eef.png)
+[<img
+        src="https://i.pinimg.com/originals/07/47/c8/0747c85b290b2041e38cbb879ea1ad0c.png" 
+        width=12%
+        title="Catwoman "
+        alt="Catwoman"
+    />
+](https://i.pinimg.com/originals/07/47/c8/0747c85b290b2041e38cbb879ea1ad0c.png)
+[<img
+        src="https://i.pinimg.com/originals/da/26/b6/da26b68c83535d2f2b32ffe56ea34e64.png" 
+        width=12%
+        title="Pinguino "
+        alt="Pinguino"
+    />
+](https://i.pinimg.com/originals/da/26/b6/da26b68c83535d2f2b32ffe56ea34e64.png)
+
+
 ### Componentes del Proyecto
 ***
 **1. Mapa:** Un arreglo bidimensional (en forma de vector de strings) que representa la ciudad. Cada fila del mapa tiene exactamente 8 caracteres, que pueden ser 'X' (villano) o 'O' (amigo).
