@@ -23,6 +23,16 @@ El Presente Proyecto fue realizado por alumnos de Informatica de la Universidad 
 > 👥 Adrián Gabriel Martinez Costales C.I:32.923.667
 
 # Descripción del Proyecto
+
+[<img
+        src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTVoZXM1YWk2dm9kcWxwMTBkeWxoYjc3Z2VrdzN2MmxrOHh0cnlwYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/stMnmS3dgqp6iVigwH/giphy.webp" 
+        width=150%
+        title="BATMAN"
+        alt="BATMAN"
+    />
+](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTVoZXM1YWk2dm9kcWxwMTBkeWxoYjc3Z2VrdzN2MmxrOHh0cnlwYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/stMnmS3dgqp6iVigwH/giphy.webp)  
+
+
 ### Objetivo
 ***
 El objetivo del proyecto es permitir al usuario ingresar un mapa de 8x8 que representa una ciudad, donde los caracteres 'X' y 'O' se utilizan para representar a los villanos y amigos, respectivamente. El programa analiza este mapa para detectar la posición de varios villanos y contar cuántos amigos tiene cada uno.
@@ -171,6 +181,13 @@ EJEMPLO:``
 
 ![image](https://github.com/user-attachments/assets/a145ee69-0a40-45fb-99c6-a79e59902dcb)
 
+[<img
+        src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDYzeXhpd3cwZGtrc3B0N2FncHZ0eWJscnBma2VrM2w5dWx5M2wwbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Phfubr9dlNDmE/giphy.webp" 
+        width=150%
+        title="BATMAN"
+        alt="BATMAN"
+    />
+](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDYzeXhpd3cwZGtrc3B0N2FncHZ0eWJscnBma2VrM2w5dWx5M2wwbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Phfubr9dlNDmE/giphy.webp)  
 
 
 
