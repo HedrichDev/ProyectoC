@@ -110,7 +110,13 @@ El objetivo del proyecto es permitir al usuario ingresar un mapa de 8x8 que repr
 - **Harley Quinn:** Se busca la secuencia 'XXX' en cada fila.
 - **Acertijo:** Se verifica si hay un 'O' en una posición específica y si hay 'X' en posiciones en forma de 'L'.
 - **Catwoman:** Se verifica si hay 'X' en las posiciones diagonales alrededor de un 'O'.
-- **El Joker:** Se verifica si hay un 'X' en una posición específica en relación con otro 'X'.
+- [<img
+        src="https://i.pinimg.com/originals/fa/4c/8b/fa4c8bd3ad851273d3e2eb77e072196a.png" 
+        width=2%
+        title="Joker"
+        alt="Joker"
+    />
+](https://i.pinimg.com/originals/fa/4c/8b/fa4c8bd3ad851273d3e2eb77e072196a.png) **El Joker:** Se verifica si hay un 'X' en una posición específica en relación con otro 'X'.
 - **Poison Ivy:** Se verifica si hay 'X' a la izquierda y derecha de un 'X'.
 - **El Pingüino:** Se verifica si hay 'O' en posiciones específicas.
 
@@ -198,13 +204,7 @@ EJEMPLO:``
 
 
 
-[<img
-        src="https://i.pinimg.com/originals/fa/4c/8b/fa4c8bd3ad851273d3e2eb77e072196a.png" 
-        width=5%
-        title="Joker"
-        alt="Joker"
-    />
-](https://i.pinimg.com/originals/fa/4c/8b/fa4c8bd3ad851273d3e2eb77e072196a.png)
+
 [<img
         src="https://i.pinimg.com/originals/36/e1/a9/36e1a97f30edd8e4d773d59c92641bba.png" 
         width=3%
@@ -228,7 +228,7 @@ EJEMPLO:``
 ](https://i.pinimg.com/originals/ec/38/2a/ec382abc5050544e0066315f0de46eef.png)
 [<img
         src="https://i.pinimg.com/originals/07/47/c8/0747c85b290b2041e38cbb879ea1ad0c.png" 
-        width=5%
+        width=0.5%
         title="Catwoman "
         alt="Catwoman"
     />
