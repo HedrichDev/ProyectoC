@@ -1,7 +1,8 @@
 # !  Hola 👋, Este es el BatiProyecto en C++ del grupo de HΞDЯICH 
 ![](https://github.com/HedrichDev/ProyectoC/blob/main/Integrantes%20del%20Grupo.png)
 
-El Presente Proyecto fue realizado por alumnos de Informatica de la Universidad de Oriente UDO [<img
+El Presente Proyecto fue realizado por alumnos de Informatica de la Universidad de Oriente UDO 
+[<img
         src="https://raw.githubusercontent.com/HedrichDev/ProyectoC/refs/heads/main/LOGO%20UDONE.png" 
         width=3%
         title="Logo UDO"
@@ -207,8 +208,6 @@ EJEMPLO:``
 
 - Debe abrir el archivo .Algo Con la SIguiente Extension Pseudocodigo ES  [( DESCARGAR AQUI)]( https://marketplace.visualstudio.com/items?itemName=Kkai.pseudocodigo-es "Descargar Extension Pseudocodigo ES")
 [<img
-
-
         src="https://kkai.gallerycdn.vsassets.io/extensions/kkai/pseudocodigo-es/0.3.0/1720443162865/Microsoft.VisualStudio.Services.Icons.Default" 
         width=10%
         title="Pseudocódigo ES"
@@ -218,6 +217,7 @@ EJEMPLO:``
 - Recomiendo Usar Dicha  Extencion Debido a que permite leer el codigo de manera mas sencilla gracias a que coloca en diferentes colores variables, constantes, palabras reservadas etc
 - 
 ![image](https://github.com/user-attachments/assets/a145ee69-0a40-45fb-99c6-a79e59902dcb)
+
 [<img
         src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDYzeXhpd3cwZGtrc3B0N2FncHZ0eWJscnBma2VrM2w5dWx5M2wwbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Phfubr9dlNDmE/giphy.webp" 
         width=150%
