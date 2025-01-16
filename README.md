@@ -206,6 +206,27 @@ EJEMPLO:``
 ](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png)  
 
 - Debe abrir el archivo .Algo Con la SIguiente Extension Pseudocodigo ES  [( DESCARGAR AQUI)]( https://marketplace.visualstudio.com/items?itemName=Kkai.pseudocodigo-es "Descargar Extension Pseudocodigo ES")
+[<img
+
+
+        src="https://kkai.gallerycdn.vsassets.io/extensions/kkai/pseudocodigo-es/0.3.0/1720443162865/Microsoft.VisualStudio.Services.Icons.Default" 
+        width=10%
+        title="Pseudocódigo ES"
+        alt="Pseudocódigo ES"
+    />
+](https://kkai.gallerycdn.vsassets.io/extensions/kkai/pseudocodigo-es/0.3.0/1720443162865/Microsoft.VisualStudio.Services.Icons.Default)
+- Recomiendo Usar Dicha  Extencion Debido a que permite leer el codigo de manera mas sencilla gracias a que coloca en diferentes colores variables, constantes, palabras reservadas etc
+- 
+![image](https://github.com/user-attachments/assets/a145ee69-0a40-45fb-99c6-a79e59902dcb)
+[<img
+        src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDYzeXhpd3cwZGtrc3B0N2FncHZ0eWJscnBma2VrM2w5dWx5M2wwbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Phfubr9dlNDmE/giphy.webp" 
+        width=150%
+        title="BATMAN"
+        alt="BATMAN"
+    />
+](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDYzeXhpd3cwZGtrc3B0N2FncHZ0eWJscnBma2VrM2w5dWx5M2wwbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Phfubr9dlNDmE/giphy.webp)  
+
+
 
 
 
